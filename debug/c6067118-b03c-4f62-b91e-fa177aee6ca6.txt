@@ -1,0 +1,161 @@
+2026-01-17T23:34:42.759Z [DEBUG] Watching for changes in setting files C:\Users\danil\.claude...
+2026-01-17T23:34:42.771Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-17T23:34:42.771Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-17T23:34:42.771Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-17T23:34:42.771Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-17T23:34:42.835Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-01-17T23:34:42.848Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-17T23:34:42.848Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-17T23:34:42.848Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-17T23:34:42.856Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-17T23:34:42.857Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-17T23:34:42.857Z [DEBUG] Total LSP servers loaded: 0
+2026-01-17T23:34:42.857Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-17T23:34:42.857Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-17T23:34:42.857Z [DEBUG] [STARTUP] MCP configs loaded in 1ms
+2026-01-17T23:34:42.858Z [DEBUG] LSP server manager initialized successfully
+2026-01-17T23:34:42.858Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-17T23:34:42.861Z [DEBUG] [STARTUP] Running setup()...
+2026-01-17T23:34:42.867Z [DEBUG] Stats cache does not exist, returning empty cache
+2026-01-17T23:34:42.872Z [DEBUG] Stats cache empty, processing all historical data in background
+2026-01-17T23:34:42.891Z [DEBUG] Loading skills from: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=C:\Users\danil\.claude\skills, project=[]
+2026-01-17T23:34:42.934Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-01-17T23:34:42.950Z [DEBUG] Error log sink initialized
+2026-01-17T23:34:42.964Z [DEBUG] Writing to temp file: C:\Users\danil\.claude\todos\c6067118-b03c-4f62-b91e-fa177aee6ca6-agent-c6067118-b03c-4f62-b91e-fa177aee6ca6.json.tmp.26648.1768692882964
+2026-01-17T23:34:42.992Z [DEBUG] Temp file written successfully, size: 2 bytes
+2026-01-17T23:34:42.992Z [DEBUG] Renaming C:\Users\danil\.claude\todos\c6067118-b03c-4f62-b91e-fa177aee6ca6-agent-c6067118-b03c-4f62-b91e-fa177aee6ca6.json.tmp.26648.1768692882964 to C:\Users\danil\.claude\todos\c6067118-b03c-4f62-b91e-fa177aee6ca6-agent-c6067118-b03c-4f62-b91e-fa177aee6ca6.json
+2026-01-17T23:34:42.992Z [DEBUG] File C:\Users\danil\.claude\todos\c6067118-b03c-4f62-b91e-fa177aee6ca6-agent-c6067118-b03c-4f62-b91e-fa177aee6ca6.json written atomically
+2026-01-17T23:34:43.029Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-17T23:34:43.029Z [DEBUG] Total plugin skills loaded: 0
+2026-01-17T23:34:43.029Z [DEBUG] Total plugin commands loaded: 0
+2026-01-17T23:34:43.031Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-17T23:34:43.041Z [DEBUG] [STARTUP] setup() completed in 180ms
+2026-01-17T23:34:43.041Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-17T23:34:43.069Z [DEBUG] [Claude in Chrome] Found chrome profiles: Default, Profile 1, Profile 2
+2026-01-17T23:34:43.077Z [DEBUG] Session index: added 1, updated 0, removed 0 (total: 1)
+2026-01-17T23:34:43.094Z [DEBUG] Watching for changes in skill/command directories: C:\Users\danil\.claude\projects\.claude\commands...
+2026-01-17T23:34:43.104Z [DEBUG] Total plugin agents loaded: 0
+2026-01-17T23:34:43.116Z [DEBUG] Loaded 5 unique skills (managed: 0, user: 0, project: 0, legacy commands: 5)
+2026-01-17T23:34:43.116Z [DEBUG] getSkills returning: 5 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-17T23:34:43.118Z [DEBUG] [STARTUP] Commands and agents loaded in 77ms
+2026-01-17T23:34:43.119Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-17T23:34:43.120Z [DEBUG] [render] initYoga starting
+2026-01-17T23:34:43.136Z [DEBUG] [Claude in Chrome] Found brave profiles: Default
+2026-01-17T23:34:43.175Z [DEBUG] [render] initYoga complete
+2026-01-17T23:34:43.227Z [DEBUG] [Claude in Chrome] Found edge profiles: Default
+2026-01-17T23:34:43.246Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-17T23:34:43.259Z [DEBUG] [keybindings] KeybindingSetup initialized with 45 bindings, 0 warnings
+2026-01-17T23:34:43.548Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-17T23:34:46.771Z [ERROR] Failed to refresh marketplace claude-plugins-official: Failed to clone marketplace repository: SSH authentication failed. Please ensure your SSH keys are configured for GitHub, or use an HTTPS URL instead.
+
+Original error: Cloning into 'C:\Users\danil\.claude\plugins\marketplaces\claude-plugins-official'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2026-01-17T23:34:46.771Z [WARN] Plugin autoupdate: failed to refresh marketplace claude-plugins-official: Failed to refresh marketplace 'claude-plugins-official': Failed to clone marketplace repository: SSH authentication failed. Please ensure your SSH keys are configured for GitHub, or use an HTTPS URL instead.
+
+Original error: Cloning into 'C:\Users\danil\.claude\plugins\marketplaces\claude-plugins-official'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2026-01-17T23:34:46.772Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-01-17T23:34:48.041Z [DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=C:\Users\danil\.local\bin\claude.exe)
+2026-01-17T23:34:49.729Z [DEBUG] Writing to temp file: C:\Users\danil\.claude.json.tmp.26648.1768692889729
+2026-01-17T23:34:49.729Z [DEBUG] Preserving file permissions: 100666
+2026-01-17T23:34:49.732Z [DEBUG] Temp file written successfully, size: 5264 bytes
+2026-01-17T23:34:49.732Z [DEBUG] Applied original permissions to temp file
+2026-01-17T23:34:49.732Z [DEBUG] Renaming C:\Users\danil\.claude.json.tmp.26648.1768692889729 to C:\Users\danil\.claude.json
+2026-01-17T23:34:49.733Z [DEBUG] File C:\Users\danil\.claude.json written atomically
+2026-01-17T23:34:49.792Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-17T23:34:49.795Z [DEBUG] Grove: Using fresh cached config
+2026-01-17T23:34:49.796Z [DEBUG] [render] initYoga starting
+2026-01-17T23:34:49.811Z [DEBUG] [render] initYoga complete
+2026-01-17T23:34:49.819Z [DEBUG] [keybindings] KeybindingSetup initialized with 45 bindings, 0 warnings
+2026-01-17T23:34:49.828Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-17T23:34:49.865Z [DEBUG] Git remote URL: null
+2026-01-17T23:34:49.865Z [DEBUG] No git remote URL found
+2026-01-17T23:34:49.865Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-01-17T23:34:50.160Z [DEBUG] [STARTUP] showSetupScreens() completed in 7041ms
+2026-01-17T23:34:50.161Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:34:50.161Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:34:50.175Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:34:50.177Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-17T23:34:50.186Z [DEBUG] Writing to temp file: C:\Users\danil\.claude.json.tmp.26648.1768692890186
+2026-01-17T23:34:50.186Z [DEBUG] Preserving file permissions: 100666
+2026-01-17T23:34:50.189Z [DEBUG] Temp file written successfully, size: 5264 bytes
+2026-01-17T23:34:50.190Z [DEBUG] Applied original permissions to temp file
+2026-01-17T23:34:50.190Z [DEBUG] Renaming C:\Users\danil\.claude.json.tmp.26648.1768692890186 to C:\Users\danil\.claude.json
+2026-01-17T23:34:50.190Z [DEBUG] File C:\Users\danil\.claude.json written atomically
+2026-01-17T23:34:50.407Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-17T23:34:50.407Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:34:50.407Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-17T23:34:50.421Z [DEBUG] [render] initYoga starting
+2026-01-17T23:34:50.421Z [DEBUG] Skills and commands included in Skill tool: mockup, plan, track-bug, track-idea, track
+2026-01-17T23:34:50.422Z [DEBUG] [render] initYoga complete
+2026-01-17T23:34:50.428Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:34:50.428Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:34:50.428Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:34:50.430Z [DEBUG] Metrics opt-out API response: enabled=true, vcsLinking=false
+2026-01-17T23:34:50.438Z [DEBUG] Summarizing all 2 messages (~0 tokens)
+2026-01-17T23:34:50.441Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-17T23:34:50.449Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:34:50.449Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:34:50.450Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:34:50.478Z [DEBUG] [keybindings] KeybindingSetup initialized with 45 bindings, 0 warnings
+2026-01-17T23:34:50.546Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-17T23:34:50.546Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-01-17T23:34:50.549Z [DEBUG] Official marketplace auto-install skipped: already_attempted
+2026-01-17T23:34:50.550Z [DEBUG] performStartupChecks called
+2026-01-17T23:34:50.550Z [DEBUG] Starting background plugin installations
+2026-01-17T23:34:50.551Z [DEBUG] performBackgroundPluginInstallations called
+2026-01-17T23:34:50.554Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-01-17T23:34:50.556Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2026-01-17T23:34:50.557Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-01-17T23:34:50.580Z [DEBUG] Writing to temp file: C:\Users\danil\.claude.json.tmp.26648.1768692890580
+2026-01-17T23:34:50.580Z [DEBUG] Preserving file permissions: 100666
+2026-01-17T23:34:50.583Z [DEBUG] Temp file written successfully, size: 5445 bytes
+2026-01-17T23:34:50.584Z [DEBUG] Applied original permissions to temp file
+2026-01-17T23:34:50.584Z [DEBUG] Renaming C:\Users\danil\.claude.json.tmp.26648.1768692890580 to C:\Users\danil\.claude.json
+2026-01-17T23:34:50.584Z [DEBUG] File C:\Users\danil\.claude.json written atomically
+2026-01-17T23:34:50.963Z [DEBUG] Checking for native installer update to version 2.1.12
+2026-01-17T23:34:50.973Z [DEBUG] Found 2.1.12 at C:\Users\danil\.local\bin\claude.exe, skipping install
+2026-01-17T23:34:50.994Z [DEBUG] Stream started - received first chunk
+2026-01-17T23:34:51.158Z [DEBUG] Summarizing all 5 messages (~0 tokens)
+2026-01-17T23:34:51.159Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-17T23:34:51.163Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:34:51.163Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:34:51.164Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:34:52.199Z [DEBUG] Stream started - received first chunk
+2026-01-17T23:34:56.344Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-01-17T23:35:38.076Z [DEBUG] High write ratio: blit=1116, write=2436 (68.6% writes), screen=82x80
+2026-01-17T23:43:46.388Z [DEBUG] Slow render_v2: 68.3ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-17T23:48:08.754Z [DEBUG] Slow render_v2: 50.4ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-17T23:49:11.811Z [DEBUG] Slow render_v2: 69.1ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:17.361Z [DEBUG] Slow render_v2: 249.6ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:23.806Z [DEBUG] Slow render_v2: 59.9ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:26.391Z [DEBUG] Slow render_v2: 55.5ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:28.279Z [DEBUG] Slow render_v2: 256.2ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:28.843Z [DEBUG] Slow render_v2: 88.0ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:30.451Z [DEBUG] Slow render_v2: 86.9ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:41.612Z [DEBUG] Slow render_v2: 127.0ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T00:59:55.171Z [DEBUG] Slow render_v2: 131.9ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:01:21.414Z [DEBUG] Slow render_v2: 61.6ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:02:46.843Z [DEBUG] Slow render_v2: 52.7ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:03:16.685Z [DEBUG] Slow render_v2: 76.8ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:03:33.531Z [DEBUG] Slow render_v2: 54.5ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:03:45.208Z [DEBUG] Slow render_v2: 64.2ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:05:10.780Z [DEBUG] Slow render_v2: 55.8ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:06:35.372Z [DEBUG] Slow render_v2: 63.2ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:06:57.833Z [DEBUG] Slow render_v2: 50.9ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:07:04.724Z [DEBUG] Slow render_v2: 57.5ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:07:18.812Z [DEBUG] Slow render_v2: 66.1ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:07:55.451Z [DEBUG] Slow render_v2: 76.7ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:08:07.638Z [DEBUG] Slow render_v2: 68.9ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:08:29.058Z [DEBUG] Slow render_v2: 53.1ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:08:36.738Z [DEBUG] Slow render_v2: 72.8ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:08:55.964Z [DEBUG] Slow render_v2: 89.4ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0
+2026-01-18T01:09:31.137Z [DEBUG] Slow render_v2: 58.6ms, screen: 82x80, damage: 80x82 at (0,0), changes: 0

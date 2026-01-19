@@ -1,0 +1,208 @@
+2026-01-17T23:33:41.792Z [DEBUG] Watching for changes in setting files C:\Users\danil\.claude...
+2026-01-17T23:33:41.796Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-17T23:33:41.796Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-17T23:33:41.797Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-17T23:33:41.797Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-17T23:33:41.919Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-01-17T23:33:41.928Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-17T23:33:41.928Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-17T23:33:41.928Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-17T23:33:41.932Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-17T23:33:41.953Z [DEBUG] Loaded inline plugin from path: datamodellm
+2026-01-17T23:33:41.953Z [DEBUG] Loaded 1 session-only plugins from --plugin-dir
+2026-01-17T23:33:41.953Z [DEBUG] Found 1 plugins (1 enabled, 0 disabled)
+2026-01-17T23:33:41.953Z [DEBUG] [STARTUP] MCP configs loaded in 21ms
+2026-01-17T23:33:41.963Z [DEBUG] [STARTUP] Running setup()...
+2026-01-17T23:33:41.966Z [DEBUG] Stats cache does not exist, returning empty cache
+2026-01-17T23:33:41.966Z [DEBUG] Stats cache empty, processing all historical data in background
+2026-01-17T23:33:41.973Z [DEBUG] Loading skills from: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=C:\Users\danil\.claude\skills, project=[]
+2026-01-17T23:33:42.050Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-01-17T23:33:42.097Z [DEBUG] Writing to temp file: C:\Users\danil\.claude\todos\d37b4b75-1e28-4f00-bd85-de5ba59542a5-agent-d37b4b75-1e28-4f00-bd85-de5ba59542a5.json.tmp.11812.1768692822097
+2026-01-17T23:33:42.097Z [DEBUG] Temp file written successfully, size: 2 bytes
+2026-01-17T23:33:42.097Z [DEBUG] Renaming C:\Users\danil\.claude\todos\d37b4b75-1e28-4f00-bd85-de5ba59542a5-agent-d37b4b75-1e28-4f00-bd85-de5ba59542a5.json.tmp.11812.1768692822097 to C:\Users\danil\.claude\todos\d37b4b75-1e28-4f00-bd85-de5ba59542a5-agent-d37b4b75-1e28-4f00-bd85-de5ba59542a5.json
+2026-01-17T23:33:42.098Z [DEBUG] File C:\Users\danil\.claude\todos\d37b4b75-1e28-4f00-bd85-de5ba59542a5-agent-d37b4b75-1e28-4f00-bd85-de5ba59542a5.json written atomically
+2026-01-17T23:33:42.103Z [DEBUG] getPluginSkills: Processing 1 enabled plugins
+2026-01-17T23:33:42.103Z [DEBUG] Checking plugin datamodellm: skillsPath=none, skillsPaths=0 paths
+2026-01-17T23:33:42.103Z [DEBUG] Total plugin skills loaded: 0
+2026-01-17T23:33:42.148Z [DEBUG] Registered 0 hooks from 1 plugins
+2026-01-17T23:33:42.783Z [DEBUG] [STARTUP] setup() completed in 820ms
+2026-01-17T23:33:42.783Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-17T23:33:42.786Z [DEBUG] Loaded 1 commands from plugin datamodellm default directory
+2026-01-17T23:33:42.786Z [DEBUG] Total plugin commands loaded: 1
+2026-01-17T23:33:42.837Z [DEBUG] Total LSP servers loaded: 0
+2026-01-17T23:33:42.837Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-17T23:33:42.838Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-17T23:33:42.838Z [DEBUG] LSP server manager initialized successfully
+2026-01-17T23:33:42.838Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-17T23:33:42.846Z [DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+2026-01-17T23:33:42.846Z [DEBUG] Looking for shell config file: C:\Users\danil\.bashrc
+2026-01-17T23:33:42.846Z [DEBUG] Shell config file not found: C:\Users\danil\.bashrc, creating snapshot with Claude Code defaults only
+2026-01-17T23:33:42.846Z [DEBUG] Snapshots directory: C:\Users\danil\.claude\shell-snapshots
+2026-01-17T23:33:42.986Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=C:\Users\danil\AppData\Local\Programs\Nimbalyst\resources\app.asar.unpacked\node_modules\@anthropic-ai\claude-agent-sdk\vendor\ripgrep\x64-win32\rg.exe)
+2026-01-17T23:33:43.005Z [DEBUG] Creating snapshot at: C:\Users\danil\.claude\shell-snapshots\snapshot-bash-1768692822846-9yai9a.sh
+2026-01-17T23:33:43.005Z [DEBUG] Shell binary exists: true
+2026-01-17T23:33:43.005Z [DEBUG] Execution timeout: 10000ms
+2026-01-17T23:33:43.015Z [ERROR] Failed to refresh marketplace claude-plugins-official: Failed to clone marketplace repository: 'git' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-01-17T23:33:43.015Z [WARN] Plugin autoupdate: failed to refresh marketplace claude-plugins-official: Failed to refresh marketplace 'claude-plugins-official': Failed to clone marketplace repository: 'git' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-01-17T23:33:43.015Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-01-17T23:33:43.023Z [DEBUG] Loaded 5 unique skills (managed: 0, user: 0, project: 0, legacy commands: 5)
+2026-01-17T23:33:43.023Z [DEBUG] getSkills returning: 5 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-17T23:33:43.036Z [DEBUG] Total plugin agents loaded: 0
+2026-01-17T23:33:43.037Z [DEBUG] [STARTUP] Commands and agents loaded in 254ms
+2026-01-17T23:33:43.038Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:43.039Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:43.048Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:43.132Z [DEBUG] MCP server "nimbalyst-mcp": SSE transport initialized, awaiting connection
+2026-01-17T23:33:43.136Z [DEBUG] MCP server "nimbalyst-mcp": Starting connection with timeout of 30000ms
+2026-01-17T23:33:43.140Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-17T23:33:43.140Z [DEBUG] MCP server "nimbalyst-session-naming": SSE transport initialized, awaiting connection
+2026-01-17T23:33:43.141Z [DEBUG] MCP server "nimbalyst-session-naming": Starting connection with timeout of 30000ms
+2026-01-17T23:33:43.142Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-17T23:33:43.145Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-17T23:33:43.146Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-17T23:33:43.206Z [ERROR] Error: Error: EPERM: operation not permitted, symlink 'C:\Users\danil\.claude\projects\C--Users-danil--claude-projects\d37b4b75-1e28-4f00-bd85-de5ba59542a5\subagents\agent-a4f03b0.jsonl' -> 'C:\Users\danil\AppData\Local\Temp\claude\C--Users-danil--claude-projects\tasks\a4f03b0.output'
+    at symlinkSync (node:fs:1889:11)
+    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)
+    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)
+    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)
+    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-17T23:33:43.211Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2026-01-17T23:33:43.211Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:33:43.211Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2026-01-17T23:33:43.234Z [ERROR] Error: Error: EPERM: operation not permitted, symlink 'C:\Users\danil\.claude\projects\C--Users-danil--claude-projects\d37b4b75-1e28-4f00-bd85-de5ba59542a5\subagents\agent-a0cab15.jsonl' -> 'C:\Users\danil\AppData\Local\Temp\claude\C--Users-danil--claude-projects\tasks\a0cab15.output'
+    at symlinkSync (node:fs:1889:11)
+    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)
+    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)
+    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)
+    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-17T23:33:43.238Z [DEBUG] Getting matching hook commands for SubagentStart with query: Bash
+2026-01-17T23:33:43.238Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:33:43.238Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-17T23:33:43.249Z [ERROR] Error: Error: EPERM: operation not permitted, symlink 'C:\Users\danil\.claude\projects\C--Users-danil--claude-projects\d37b4b75-1e28-4f00-bd85-de5ba59542a5\subagents\agent-a163721.jsonl' -> 'C:\Users\danil\AppData\Local\Temp\claude\C--Users-danil--claude-projects\tasks\a163721.output'
+    at symlinkSync (node:fs:1889:11)
+    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)
+    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)
+    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)
+    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-17T23:33:43.251Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2026-01-17T23:33:43.251Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:33:43.251Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2026-01-17T23:33:43.268Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-17T23:33:43.272Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-17T23:33:43.294Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-17T23:33:43.296Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-17T23:33:43.297Z [DEBUG] MCP server "nimbalyst-mcp": Successfully connected to sse server in 249ms
+2026-01-17T23:33:43.297Z [DEBUG] MCP server "nimbalyst-mcp": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"nimbalyst-mcp","version":"1.0.0"}}
+2026-01-17T23:33:43.298Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-17T23:33:43.302Z [DEBUG] MCP server "nimbalyst-session-naming": Successfully connected to sse server in 254ms
+2026-01-17T23:33:43.302Z [DEBUG] MCP server "nimbalyst-session-naming": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"nimbalyst-session-naming","version":"1.0.0"}}
+2026-01-17T23:33:43.303Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-17T23:33:43.333Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-17T23:33:43.337Z [DEBUG] Grove: Using fresh cached config
+2026-01-17T23:33:43.373Z [DEBUG] Auto tool search disabled: 0 chars (threshold: 50000, 10% of context)
+2026-01-17T23:33:43.381Z [DEBUG] Skills and commands included in Skill tool: track-bug, track, plan, track-idea, mockup, datamodellm:datamodel
+2026-01-17T23:33:43.383Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:43.383Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:43.383Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:43.426Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-17T23:33:43.426Z [DEBUG] Tool search disabled: MCPSearchTool is not available (may have been disallowed via disallowedTools).
+2026-01-17T23:33:43.429Z [DEBUG] Auto tool search disabled: 0 chars (threshold: 50000, 10% of context)
+2026-01-17T23:33:43.436Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:43.436Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:43.440Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:43.442Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:43.442Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:43.444Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:43.446Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:43.446Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:43.447Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:43.762Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-17T23:33:43.762Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:33:43.762Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-17T23:33:43.766Z [DEBUG] Total plugin output styles loaded: 0
+2026-01-17T23:33:44.066Z [DEBUG] Stream started - received first chunk
+2026-01-17T23:33:44.168Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-01-17T23:33:44.168Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:33:44.168Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)
+2026-01-17T23:33:46.931Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:46.931Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:46.931Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.192Z [DEBUG] Getting matching hook commands for SessionStart with query: resume
+2026-01-17T23:33:47.192Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:33:47.192Z [DEBUG] Matched 0 unique hooks for query "resume" (0 before deduplication)
+2026-01-17T23:33:47.195Z [DEBUG] Total plugin output styles loaded: 0
+2026-01-17T23:33:47.399Z [DEBUG] Shell snapshot created successfully (388 bytes)
+2026-01-17T23:33:47.456Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.456Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.458Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.458Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.458Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.458Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.459Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.461Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.461Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.462Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.462Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.462Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.462Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.462Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.463Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.463Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.463Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.463Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.463Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.464Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:47.870Z [DEBUG] Auto tool search disabled: 1721 chars (threshold: 50000, 10% of context)
+2026-01-17T23:33:47.911Z [DEBUG] Stream started - received first chunk
+2026-01-17T23:33:47.973Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:33:47.973Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:33:47.973Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:33:48.119Z [DEBUG] Stream started - received first chunk
+2026-01-17T23:33:48.269Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-01-17T23:33:48.269Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:33:48.269Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)

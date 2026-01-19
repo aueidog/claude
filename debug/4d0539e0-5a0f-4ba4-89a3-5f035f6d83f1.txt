@@ -1,0 +1,110 @@
+2026-01-17T23:14:01.377Z [DEBUG] Watching for changes in setting files C:\Users\danil\.claude...
+2026-01-17T23:14:01.382Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-17T23:14:01.382Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-17T23:14:01.382Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-17T23:14:01.383Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-17T23:14:01.476Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-01-17T23:14:01.486Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-17T23:14:01.486Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-17T23:14:01.486Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-17T23:14:01.490Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-17T23:14:01.508Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-17T23:14:01.508Z [DEBUG] Total LSP servers loaded: 0
+2026-01-17T23:14:01.508Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-17T23:14:01.508Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-17T23:14:01.508Z [DEBUG] LSP server manager initialized successfully
+2026-01-17T23:14:01.508Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-17T23:14:01.508Z [DEBUG] [STARTUP] MCP configs loaded in 18ms
+2026-01-17T23:14:01.516Z [DEBUG] [STARTUP] Running setup()...
+2026-01-17T23:14:01.521Z [DEBUG] Stats cache does not exist, returning empty cache
+2026-01-17T23:14:01.521Z [DEBUG] Stats cache empty, processing all historical data in background
+2026-01-17T23:14:01.529Z [DEBUG] Loading skills from: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=C:\Users\danil\.claude\skills, project=[]
+2026-01-17T23:14:01.619Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-01-17T23:14:01.653Z [DEBUG] Writing to temp file: C:\Users\danil\.claude\todos\4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1-agent-4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1.json.tmp.39564.1768691641653
+2026-01-17T23:14:01.654Z [DEBUG] Temp file written successfully, size: 2 bytes
+2026-01-17T23:14:01.654Z [DEBUG] Renaming C:\Users\danil\.claude\todos\4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1-agent-4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1.json.tmp.39564.1768691641653 to C:\Users\danil\.claude\todos\4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1-agent-4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1.json
+2026-01-17T23:14:01.655Z [DEBUG] File C:\Users\danil\.claude\todos\4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1-agent-4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1.json written atomically
+2026-01-17T23:14:01.660Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-17T23:14:01.660Z [DEBUG] Total plugin skills loaded: 0
+2026-01-17T23:14:01.660Z [DEBUG] Total plugin commands loaded: 0
+2026-01-17T23:14:01.660Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-17T23:14:01.670Z [DEBUG] [STARTUP] setup() completed in 154ms
+2026-01-17T23:14:01.670Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-17T23:14:01.694Z [DEBUG] Total plugin agents loaded: 0
+2026-01-17T23:14:01.694Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, legacy commands: 0)
+2026-01-17T23:14:01.695Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-17T23:14:01.696Z [DEBUG] [STARTUP] Commands and agents loaded in 26ms
+2026-01-17T23:14:01.697Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:14:01.697Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:14:01.704Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:14:01.755Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-17T23:14:01.760Z [DEBUG] Grove: Using fresh cached config
+2026-01-17T23:14:01.793Z [ERROR] "Error: Error: spawn C:\\Users\\danil\\AppData\\Local\\Programs\\Nimbalyst\\resources\\app.asar\\node_modules\\@anthropic-ai\\claude-agent-sdk\\vendor\\ripgrep\\x64-win32\\rg.exe ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"
+2026-01-17T23:14:01.800Z [DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=C:\Users\danil\AppData\Local\Programs\Nimbalyst\resources\app.asar\node_modules\@anthropic-ai\claude-agent-sdk\vendor\ripgrep\x64-win32\rg.exe)
+2026-01-17T23:14:01.819Z [DEBUG] Skills and commands included in Skill tool:
+2026-01-17T23:14:01.820Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:14:01.820Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:14:01.820Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:14:01.823Z [DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+2026-01-17T23:14:01.823Z [DEBUG] Looking for shell config file: C:\Users\danil\.bashrc
+2026-01-17T23:14:01.823Z [DEBUG] Shell config file not found: C:\Users\danil\.bashrc, creating snapshot with Claude Code defaults only
+2026-01-17T23:14:01.823Z [DEBUG] Snapshots directory: C:\Users\danil\.claude\shell-snapshots
+2026-01-17T23:14:01.838Z [ERROR] "Failed to refresh marketplace claude-plugins-official: Failed to clone marketplace repository: 'git' n�o � reconhecido como um comando interno\r\nou externo, um programa oper�vel ou um arquivo em lotes."
+2026-01-17T23:14:01.838Z [WARN] "Plugin autoupdate: failed to refresh marketplace claude-plugins-official: Failed to refresh marketplace 'claude-plugins-official': Failed to clone marketplace repository: 'git' n�o � reconhecido como um comando interno\r\nou externo, um programa oper�vel ou um arquivo em lotes."
+2026-01-17T23:14:01.838Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-01-17T23:14:01.853Z [ERROR] "Error: Error: EPERM: operation not permitted, symlink 'C:\\Users\\danil\\.claude\\projects\\C--Users-danil-AppData-Local-Programs-Nimbalyst\\4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1\\subagents\\agent-a0a78b1.jsonl' -> 'C:\\Users\\danil\\AppData\\Local\\Temp\\claude\\C--Users-danil-AppData-Local-Programs-Nimbalyst\\tasks\\a0a78b1.output'\n    at symlinkSync (node:fs:1889:11)\n    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)\n    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)\n    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)\n    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)\n    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+2026-01-17T23:14:01.856Z [DEBUG] Getting matching hook commands for SubagentStart with query: Bash
+2026-01-17T23:14:01.856Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:14:01.856Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-17T23:14:01.873Z [ERROR] "Error: Error: EPERM: operation not permitted, symlink 'C:\\Users\\danil\\.claude\\projects\\C--Users-danil-AppData-Local-Programs-Nimbalyst\\4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1\\subagents\\agent-ab87903.jsonl' -> 'C:\\Users\\danil\\AppData\\Local\\Temp\\claude\\C--Users-danil-AppData-Local-Programs-Nimbalyst\\tasks\\ab87903.output'\n    at symlinkSync (node:fs:1889:11)\n    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)\n    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)\n    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)\n    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)\n    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+2026-01-17T23:14:01.875Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2026-01-17T23:14:01.875Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:14:01.875Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2026-01-17T23:14:01.885Z [ERROR] "Error: Error: EPERM: operation not permitted, symlink 'C:\\Users\\danil\\.claude\\projects\\C--Users-danil-AppData-Local-Programs-Nimbalyst\\4d0539e0-5a0f-4ba4-89a3-5f035f6d83f1\\subagents\\agent-a02fb8f.jsonl' -> 'C:\\Users\\danil\\AppData\\Local\\Temp\\claude\\C--Users-danil-AppData-Local-Programs-Nimbalyst\\tasks\\a02fb8f.output'\n    at symlinkSync (node:fs:1889:11)\n    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)\n    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)\n    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)\n    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)\n    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+2026-01-17T23:14:01.887Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2026-01-17T23:14:01.887Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:14:01.887Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2026-01-17T23:14:01.903Z [DEBUG] Creating snapshot at: C:\Users\danil\.claude\shell-snapshots\snapshot-bash-1768691641823-r8n3h3.sh
+2026-01-17T23:14:01.903Z [DEBUG] Shell binary exists: true
+2026-01-17T23:14:01.903Z [DEBUG] Execution timeout: 10000ms
+2026-01-17T23:14:01.970Z [DEBUG] Tool search disabled: MCPSearchTool is not available (may have been disallowed via disallowedTools).
+2026-01-17T23:14:01.972Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-17T23:14:01.973Z [DEBUG] Auto tool search disabled: 0 chars (threshold: 50000, 10% of context)
+2026-01-17T23:14:01.978Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:14:01.979Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:14:01.979Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:14:01.982Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:14:01.982Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:14:01.984Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:14:01.984Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:14:01.984Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:14:01.984Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:14:02.174Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-17T23:14:02.174Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:14:02.174Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-17T23:14:02.180Z [DEBUG] Total plugin output styles loaded: 0
+2026-01-17T23:14:02.249Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-17T23:14:02.249Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-17T23:14:02.249Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-17T23:14:02.249Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-17T23:14:02.252Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2026-01-17T23:14:02.252Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:14:02.252Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-17T23:14:02.256Z [DEBUG] Auto tool search disabled: 0 chars (threshold: 50000, 10% of context)
+2026-01-17T23:14:02.262Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:14:02.262Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:14:02.263Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:14:02.536Z [ERROR] Error streaming, falling back to non-streaming mode: 400 {"type":"error","error":{"type":"invalid_request_error","message":"messages.0.content.0.text: cache_control cannot be set for empty text blocks"},"request_id":"req_011CXDoHzmr3d6mjQ1BM54ri"}
+2026-01-17T23:14:02.537Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-17T23:14:02.537Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-17T23:14:02.537Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-17T23:14:02.734Z [ERROR] Error in non-streaming fallback: 400 {"type":"error","error":{"type":"invalid_request_error","message":"messages.0.content.0.text: cache_control cannot be set for empty text blocks"},"request_id":"req_011CXDoJ1ocCU1htkHLvvSLd"}
+2026-01-17T23:14:02.735Z [ERROR] "Error: Error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"messages.0.content.0.text: cache_control cannot be set for empty text blocks\"},\"request_id\":\"req_011CXDoJ1ocCU1htkHLvvSLd\"}\n    at C9.generate (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:492:33583)\n    at qP.makeStatusError (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:914:2195)\n    at qP.makeRequest (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:914:5420)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async g81.model (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4346:6290)\n    at async g81 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1064:97633)\n    at async gH9 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4346:6444)\n    at async file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4344:3799\n    at async AG0 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1065:1998)\n    at async ZHA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4344:3769)"
+2026-01-17T23:14:02.792Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2026-01-17T23:14:02.792Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:14:02.792Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-17T23:14:02.816Z [DEBUG] Shell snapshot created successfully (379 bytes)
+2026-01-17T23:14:02.863Z [DEBUG] Stream started - received first chunk
+2026-01-17T23:14:02.993Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-01-17T23:14:02.993Z [DEBUG] Found 0 hook matchers in settings
+2026-01-17T23:14:02.993Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)

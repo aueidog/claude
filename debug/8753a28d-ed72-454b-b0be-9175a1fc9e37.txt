@@ -1,0 +1,106 @@
+2026-01-18T19:27:42.891Z [DEBUG] Watching for changes in setting files C:\Users\danil\.claude, C:\Users\danil\.claude\.claude...
+2026-01-18T19:27:42.902Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-18T19:27:42.902Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-18T19:27:42.902Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-18T19:27:42.902Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-18T19:27:43.015Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-01-18T19:27:43.029Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-18T19:27:43.029Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-18T19:27:43.029Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-18T19:27:43.037Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(mkdir:*)"]
+2026-01-18T19:27:43.037Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-18T19:27:43.062Z [DEBUG] Loaded inline plugin from path: datamodellm
+2026-01-18T19:27:43.062Z [DEBUG] Loaded 1 session-only plugins from --plugin-dir
+2026-01-18T19:27:43.062Z [DEBUG] Found 1 plugins (1 enabled, 0 disabled)
+2026-01-18T19:27:43.064Z [DEBUG] [STARTUP] MCP configs loaded in 27ms
+2026-01-18T19:27:43.090Z [DEBUG] [STARTUP] Running setup()...
+2026-01-18T19:27:43.103Z [DEBUG] Stats cache is up to date
+2026-01-18T19:27:43.122Z [DEBUG] Loading skills from: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=C:\Users\danil\.claude\skills, project=[]
+2026-01-18T19:27:43.246Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-01-18T19:27:43.313Z [DEBUG] Writing to temp file: C:\Users\danil\.claude\todos\8753a28d-ed72-454b-b0be-9175a1fc9e37-agent-8753a28d-ed72-454b-b0be-9175a1fc9e37.json.tmp.10660.1768764463313
+2026-01-18T19:27:43.314Z [DEBUG] Temp file written successfully, size: 2 bytes
+2026-01-18T19:27:43.314Z [DEBUG] Renaming C:\Users\danil\.claude\todos\8753a28d-ed72-454b-b0be-9175a1fc9e37-agent-8753a28d-ed72-454b-b0be-9175a1fc9e37.json.tmp.10660.1768764463313 to C:\Users\danil\.claude\todos\8753a28d-ed72-454b-b0be-9175a1fc9e37-agent-8753a28d-ed72-454b-b0be-9175a1fc9e37.json
+2026-01-18T19:27:43.316Z [DEBUG] File C:\Users\danil\.claude\todos\8753a28d-ed72-454b-b0be-9175a1fc9e37-agent-8753a28d-ed72-454b-b0be-9175a1fc9e37.json written atomically
+2026-01-18T19:27:43.330Z [DEBUG] getPluginSkills: Processing 1 enabled plugins
+2026-01-18T19:27:43.330Z [DEBUG] Checking plugin datamodellm: skillsPath=none, skillsPaths=0 paths
+2026-01-18T19:27:43.330Z [DEBUG] Total plugin skills loaded: 0
+2026-01-18T19:27:43.336Z [DEBUG] Registered 0 hooks from 1 plugins
+2026-01-18T19:27:43.367Z [DEBUG] [STARTUP] setup() completed in 277ms
+2026-01-18T19:27:43.367Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-18T19:27:43.370Z [DEBUG] Loaded 1 commands from plugin datamodellm default directory
+2026-01-18T19:27:43.370Z [DEBUG] Total plugin commands loaded: 1
+2026-01-18T19:27:43.393Z [ERROR] Failed to refresh marketplace claude-plugins-official: Cache directory exists at C:\Users\danil\.claude\plugins\marketplaces\claude-plugins-official but is not a git repository. Please remove it manually and try again.
+2026-01-18T19:27:43.393Z [WARN] Plugin autoupdate: failed to refresh marketplace claude-plugins-official: Failed to refresh marketplace 'claude-plugins-official': Cache directory exists at C:\Users\danil\.claude\plugins\marketplaces\claude-plugins-official but is not a git repository. Please remove it manually and try again.
+2026-01-18T19:27:43.395Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-01-18T19:27:43.397Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 1, project: 0, legacy commands: 0)
+2026-01-18T19:27:43.399Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-18T19:27:43.421Z [DEBUG] Total LSP servers loaded: 0
+2026-01-18T19:27:43.421Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-18T19:27:43.421Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-18T19:27:43.421Z [DEBUG] LSP server manager initialized successfully
+2026-01-18T19:27:43.422Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-18T19:27:43.441Z [DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+2026-01-18T19:27:43.441Z [DEBUG] Looking for shell config file: C:\Users\danil\.bashrc
+2026-01-18T19:27:43.442Z [DEBUG] Shell config file not found: C:\Users\danil\.bashrc, creating snapshot with Claude Code defaults only
+2026-01-18T19:27:43.442Z [DEBUG] Snapshots directory: C:\Users\danil\.claude\shell-snapshots
+2026-01-18T19:27:43.459Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=C:\Users\danil\AppData\Local\Programs\Nimbalyst\resources\app.asar.unpacked\node_modules\@anthropic-ai\claude-agent-sdk\vendor\ripgrep\x64-win32\rg.exe)
+2026-01-18T19:27:43.466Z [DEBUG] Watching for changes in skill directories: C:\Users\danil\.claude\skills...
+2026-01-18T19:27:43.528Z [DEBUG] Creating snapshot at: C:\Users\danil\.claude\shell-snapshots\snapshot-bash-1768764463442-6ni1s6.sh
+2026-01-18T19:27:43.528Z [DEBUG] Shell binary exists: true
+2026-01-18T19:27:43.528Z [DEBUG] Execution timeout: 10000ms
+2026-01-18T19:27:43.546Z [DEBUG] Total plugin agents loaded: 0
+2026-01-18T19:27:43.546Z [DEBUG] [STARTUP] Commands and agents loaded in 179ms
+2026-01-18T19:27:43.547Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-18T19:27:43.547Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-18T19:27:43.573Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-18T19:27:43.630Z [DEBUG] MCP server "nimbalyst-mcp": SSE transport initialized, awaiting connection
+2026-01-18T19:27:43.639Z [DEBUG] MCP server "nimbalyst-mcp": Starting connection with timeout of 30000ms
+2026-01-18T19:27:43.641Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-18T19:27:43.641Z [DEBUG] MCP server "nimbalyst-session-naming": SSE transport initialized, awaiting connection
+2026-01-18T19:27:43.642Z [DEBUG] MCP server "nimbalyst-session-naming": Starting connection with timeout of 30000ms
+2026-01-18T19:27:43.642Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-18T19:27:43.644Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-18T19:27:43.645Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-18T19:27:43.722Z [ERROR] Error: Error: EPERM: operation not permitted, symlink 'C:\Users\danil\.claude\projects\C--Users-danil--claude\8753a28d-ed72-454b-b0be-9175a1fc9e37\subagents\agent-adf8e05.jsonl' -> 'C:\Users\danil\AppData\Local\Temp\claude\C--Users-danil--claude\tasks\adf8e05.output'
+    at symlinkSync (node:fs:1889:11)
+    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)
+    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)
+    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)
+    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-18T19:27:43.732Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2026-01-18T19:27:43.732Z [DEBUG] Found 0 hook matchers in settings
+2026-01-18T19:27:43.732Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2026-01-18T19:27:43.764Z [ERROR] Error: Error: EPERM: operation not permitted, symlink 'C:\Users\danil\.claude\projects\C--Users-danil--claude\8753a28d-ed72-454b-b0be-9175a1fc9e37\subagents\agent-a0fd538.jsonl' -> 'C:\Users\danil\AppData\Local\Temp\claude\C--Users-danil--claude\tasks\a0fd538.output'
+    at symlinkSync (node:fs:1889:11)
+    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)
+    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)
+    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)
+    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-18T19:27:43.771Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2026-01-18T19:27:43.771Z [DEBUG] Found 0 hook matchers in settings
+2026-01-18T19:27:43.771Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2026-01-18T19:27:43.789Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-18T19:27:43.796Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-18T19:27:43.813Z [ERROR] Error: Error: EPERM: operation not permitted, symlink 'C:\Users\danil\.claude\projects\C--Users-danil--claude\8753a28d-ed72-454b-b0be-9175a1fc9e37\subagents\agent-ac86f32.jsonl' -> 'C:\Users\danil\AppData\Local\Temp\claude\C--Users-danil--claude\tasks\ac86f32.output'
+    at symlinkSync (node:fs:1889:11)
+    at gDA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1664:9948)
+    at j42 (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1766:1191)
+    at file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:7162
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at JeA (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:237:14204)
+    at Object.call (file:///C:/Users/danil/AppData/Local/Programs/Nimbalyst/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:3046:6867)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-18T19:27:43.819Z [DEBUG] Getting matching hook commands for SubagentStart with query: Bash
+2026-01-18T19:27:43.819Z [DEBUG] Found 0 hook matchers in settings
+2026-01-18T19:27:43.819Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-18T19:27:43.871Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
+2026-01-18T19:27:43.878Z [DEBUG] MCP server "nimbalyst-session-naming": No token data found
+2026-01-18T19:27:43.946Z [DEBUG] MCP server "nimbalyst-mcp": Successfully connected to sse server in 376ms
+2026-01-18T19:27:43.947Z [DEBUG] MCP server "nimbalyst-mcp": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"nimbalyst-mcp","version":"1.0.0"}}
+2026-01-18T19:27:43.953Z [DEBUG] MCP server "nimbalyst-mcp": No token data found
