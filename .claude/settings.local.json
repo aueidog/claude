@@ -1,7 +1,22 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "mcp__nimbalyst-mcp__excalidraw_import_mermaid",
+      "Bash(n8n:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "mcp__nimbalyst-mcp__excalidraw_add_elements",
+      "mcp__nimbalyst-mcp__excalidraw_add_arrows",
+      "mcp__nimbalyst-mcp__excalidraw_get_elements",
+      "mcp__nimbalyst-mcp__excalidraw_add_arrow",
+      "mcp__nimbalyst-mcp__excalidraw_add_rectangle",
+      "Bash(find:*)",
+      "Bash(cd:*)",
+      "Bash(git status:*)",
+      "Bash(git pull:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

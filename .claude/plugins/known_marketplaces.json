@@ -1,0 +1,18 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "C:\\Users\\danil\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+    "lastUpdated": "2026-01-19T18:59:29.038Z"
+  },
+  "n8n-mcp-skills": {
+    "source": {
+      "source": "github",
+      "repo": "czlonkowski/n8n-skills"
+    },
+    "installLocation": "C:\\Users\\danil\\.claude\\plugins\\marketplaces\\n8n-mcp-skills",
+    "lastUpdated": "2026-01-19T19:00:50.912Z"
+  }
+}

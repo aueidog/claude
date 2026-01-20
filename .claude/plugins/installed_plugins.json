@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "plugins": {
+    "n8n-mcp-skills@n8n-mcp-skills": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\danil\\.claude\\plugins\\cache\\n8n-mcp-skills\\n8n-mcp-skills\\1.1.0",
+        "version": "1.1.0",
+        "installedAt": "2026-01-19T19:01:15.119Z",
+        "lastUpdated": "2026-01-19T19:01:15.119Z",
+        "gitCommitSha": "d9c287202999481777868c4ce7441ced847350b3"
+      }
+    ]
+  }
+}
