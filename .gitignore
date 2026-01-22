@@ -3,8 +3,7 @@
 .credentials.json
 *.key
 *.pem
-.env
-.env.local
+.e.env.local
 .env.*.local
 
 # Configuracoes MCP com tokens/chaves

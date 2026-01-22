@@ -1,6 +1,6 @@
-# Obsidian Vault Guidelines - Bootstrap Template
+# Vault Guidelines - Bootstrap Template
 
-**Getting Started with Claude Code + Obsidian**
+**Getting Started with Claude Code as a second brain**
 
 ## Quick Setup
 
@@ -24,6 +24,8 @@ repository.
 ## Folder Structure (PARA Method)
 
 ```
+
+
 
 vault/
 ├── 00_Inbox/           # Temporary capture point
@@ -235,3 +237,4 @@ pnpm attachments:update-links # Update links after moving
 - Monthly project reviews
 - Quarterly archive cleanup
 - Regular git commits
+```
