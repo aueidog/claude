@@ -1,0 +1,28 @@
+# Credenciais e Segurança
+.claude/.credentials.json
+.credentials.json
+*.key
+*.pem
+.env
+.env.local
+.env.*.local
+
+# Cache e temporarios
+node_modules/
+.cache/
+*.tmp
+.DS_Store
+
+# Arquivos de sistema
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
