@@ -7,6 +7,12 @@
 .env.local
 .env.*.local
 
+# Configuracoes MCP com tokens/chaves
+.claude/mcps/**/.mcp.json
+.claude/mcps/**/*.local.json
+.claude/**/.mcp.json
+.mcp.json
+
 # Cache e temporarios
 node_modules/
 .cache/
