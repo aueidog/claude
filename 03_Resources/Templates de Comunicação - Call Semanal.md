@@ -1,13 +1,18 @@
 ---
 title: Templates de Comunicação - Call Semanal
-date-created: 2026-01-22
-type: template
-tags: [comunicacao, call, templates, weekly-report]
+date-created: 2026-01-22T00:00:00.000Z
+type: resource
+tags:
+  - comunicacao
+  - call
+  - guia
+  - weekly-report
 ---
+# Guia de Comunicação - Call Semanal
 
-# Templates de Comunicação - Call Semanal
+Guia de referência com exemplos práticos para relatórios semanais.
 
-Template para relatório semanal consolidado, estruturado para apresentação em call com stakeholders.
+**Template puro:** Use [[Template - Report Semanal]] para copiar e usar diretamente.
 
 ---
 

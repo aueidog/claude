@@ -1,13 +1,15 @@
 ---
 title: Templates de Comunicação - WhatsApp
 date-created: 2026-01-22
-type: template
-tags: [comunicacao, whatsapp, templates]
+type: resource
+tags: [comunicacao, whatsapp, guia]
 ---
 
-# Templates de Comunicação - WhatsApp
+# Guia de Comunicação - WhatsApp
 
-Templates prontos para comunicação ágil e profissional via WhatsApp, adaptados por nível de criticidade.
+Guia de referência com exemplos práticos para comunicação via WhatsApp.
+
+**Templates puros:** Use os templates em [[06_Metadata/Templates/]] para copiar e usar diretamente.
 
 ---
 

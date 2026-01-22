@@ -1,10 +1,12 @@
 ---
 title: Checklist de Atendimento
-date-created: 2026-01-22
+date-created: 2026-01-22T00:00:00.000Z
 type: checklist
-tags: [comunicacao, checklist, atendimento]
+tags:
+  - comunicacao
+  - checklist
+  - atendimento
 ---
-
 # Checklist de Atendimento
 
 Guia rápido para a equipe seguir ao receber e processar chamados de incidentes.
@@ -19,7 +21,7 @@ Guia rápido para a equipe seguir ao receber e processar chamados de incidentes.
   - [ ] 🟢 Baixo (melhorias, dúvidas, problemas menores)
 
 - [ ] **Gerar ID único do chamado**
-  - [ ] Formato: `#YYYY-NNNN` (ex: #2024-0847)
+  - [ ] Formato: `#YYYY``-NNNN` (ex: #2024-0847)
   - [ ] Documentar em log centralizado
 
 - [ ] **Enviar primeiro contato**
@@ -112,7 +114,7 @@ Guia rápido para a equipe seguir ao receber e processar chamados de incidentes.
 ## 📊 Matriz de Templates
 
 | Criticidade | Primeiro Contato | Durante | Resolução | Pós |
-|-------------|------------------|---------|-----------|-----|
+| --- | --- | --- | --- | --- |
 | 🔴 Crítico | WhatsApp | WhatsApp 1h | WhatsApp | E-mail + Análise |
 | 🟡 Médio | WhatsApp | WhatsApp diário | WhatsApp | Base de conhecimento |
 | 🟢 Baixo | WhatsApp | Nenhum | WhatsApp | Base de conhecimento |

@@ -1,10 +1,12 @@
 ---
 title: Processo de Escalação
-date-created: 2026-01-22
+date-created: 2026-01-22T00:00:00.000Z
 type: process
-tags: [comunicacao, escalacao, fluxo]
+tags:
+  - comunicacao
+  - escalacao
+  - fluxo
 ---
-
 # Processo de Escalação
 
 Guia de quando usar cada canal de comunicação e frequência de atualizações por nível de criticidade.
@@ -129,7 +131,7 @@ Próximo dia 09:00 - Status update diário
 ## 📋 Matriz de Decisão Rápida
 
 | Situação | Canal | Urgência | Update |
-|----------|-------|----------|--------|
+| --- | --- | --- | --- |
 | Problema resolvido em <30min | WhatsApp | Baixa | Confirmação final |
 | Problema em análise | WhatsApp | Média/Alta | Cada hora ou diária |
 | Pós-resolução crítico | E-mail | Alta | Dentro de 24h |

@@ -1,13 +1,15 @@
 ---
 title: Templates de Comunicação - E-mail
 date-created: 2026-01-22
-type: template
-tags: [comunicacao, email, templates]
+type: resource
+tags: [comunicacao, email, guia]
 ---
 
-# Templates de Comunicação - E-mail
+# Guia de Comunicação - E-mail
 
-Templates para documentação formal e consolidação de incidentes críticos via e-mail.
+Guia de referência com exemplos práticos para documentação formal via e-mail.
+
+**Template puro:** Use [[Template - E-mail Incidente Crítico]] para copiar e usar diretamente.
 
 ---
 
