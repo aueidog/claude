@@ -1,6 +1,9 @@
 # Credenciais e Segurança
 .claude/.credentials.json
+.claude/**/*.json
 .credentials.json
+**/.credentials.json
+**/credentials.json
 *.key
 *.pem
 .e.env.local

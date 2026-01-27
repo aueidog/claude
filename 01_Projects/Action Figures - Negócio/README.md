@@ -1,10 +1,18 @@
 ---
-title: Action Figures - Negócio
-date: 2026-01-27
-status: active
-tags: [negócio, action-figures, e-commerce, sociedade]
+planStatus:
+  planId: plan_1769180196665_9taa49
+  title: Action Figures - Business Plan
+  status: draft
+  planType: feature
+  priority: critical
+  progress: 10
+  owner: Danillo
+  stakeholders:
+    - Bruno Carvalho
+  tags: []
+  created: "2026-01-23"
+  updated: "2026-01-23T15:03:52.259Z"
 ---
-
 # Action Figures - Negócio
 
 ## Visão Geral
