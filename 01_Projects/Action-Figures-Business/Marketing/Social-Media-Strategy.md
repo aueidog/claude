@@ -97,6 +97,15 @@
 - Perguntas e respostas
 - Conteúdo educativo (cuidados com figures)
 
+#### 🎁 Tática: Panfleto na Caixa
+**Estratégia de Crescimento do Grupo**:
+- Incluir panfleto impresso em TODAS as caixas enviadas
+- QR Code com link flexível (Bitly) para o grupo
+- Converter clientes em membros da comunidade
+- Ver: [[Guia-Panfleto-QRCode|Guia Completo do Panfleto]]
+
+**Meta**: 30-50% dos clientes devem entrar no grupo via QR Code
+
 ---
 
 ## 🎨 Pilares de Conteúdo
@@ -113,6 +122,7 @@
 
 **Exemplo de legenda**:
 ```
+
 🔥 Seiya de Pégaso - Cavaleiros do Zodíaco
 ✨ Marca: Blokees
 📦 Articulado, acessórios inclusos
@@ -446,36 +456,36 @@ Link na bio 🔗
 
 ### Crescimento Orgânico:
 1. **Engajamento ativo**:
-   - Seguir perfis do nicho
-   - Comentar em posts relevantes
-   - Responder TODOS os comentários
-   - Seguir seguidores de concorrentes
+  - Seguir perfis do nicho
+  - Comentar em posts relevantes
+  - Responder TODOS os comentários
+  - Seguir seguidores de concorrentes
 
 2. **Parcerias**:
-   - Identificar micro-influenciadores do nicho
-   - Propor parcerias (produto por divulgação)
-   - Colaborar com outros colecionadores
+  - Identificar micro-influenciadores do nicho
+  - Propor parcerias (produto por divulgação)
+  - Colaborar com outros colecionadores
 
 3. **Hashtags**:
-   - Usar mix de hashtags grandes e pequenas
-   - Criar hashtag própria (#vibetoysbr)
+  - Usar mix de hashtags grandes e pequenas
+  - Criar hashtag própria (#vibetoysbr)
 
 4. **Cross-promotion**:
-   - Instagram → TikTok
-   - TikTok → Instagram
-   - Todos → WhatsApp
+  - Instagram → TikTok
+  - TikTok → Instagram
+  - Todos → WhatsApp
 
 ---
 
 ### Crescimento Pago (Após MEI):
 1. **Instagram/Facebook Ads**:
-   - Começar com R$ 10/dia
-   - Teste A/B de criativos
-   - Público: 18-45 anos, interessados em action figures, anime, nostalgia
+  - Começar com R$ 10/dia
+  - Teste A/B de criativos
+  - Público: 18-45 anos, interessados em action figures, anime, nostalgia
 
 2. **TikTok Ads** (futuro):
-   - Quando tiver budget maior
-   - Foco em awareness
+  - Quando tiver budget maior
+  - Foco em awareness
 
 ---
 
@@ -518,3 +528,4 @@ Link na bio 🔗
 5. **Paciência**: Crescimento orgânico leva tempo
 
 **Última atualização**: Revisar mensalmente e ajustar conforme resultados.
+```
